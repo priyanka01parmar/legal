@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Legal-AI.props" />
+</Project>
