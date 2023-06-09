@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PROMACT\\source\\repos\\Legal-AI\\Legal-AI.csproj": {}
+    "C:\\Users\\PROMACT\\source\\repos\\priyanka01parmar\\legal\\Legal-AI\\Legal-AI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PROMACT\\source\\repos\\Legal-AI\\Legal-AI.csproj": {
+    "C:\\Users\\PROMACT\\source\\repos\\priyanka01parmar\\legal\\Legal-AI\\Legal-AI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PROMACT\\source\\repos\\Legal-AI\\Legal-AI.csproj",
+        "projectUniqueName": "C:\\Users\\PROMACT\\source\\repos\\priyanka01parmar\\legal\\Legal-AI\\Legal-AI.csproj",
         "projectName": "Legal-AI",
-        "projectPath": "C:\\Users\\PROMACT\\source\\repos\\Legal-AI\\Legal-AI.csproj",
+        "projectPath": "C:\\Users\\PROMACT\\source\\repos\\priyanka01parmar\\legal\\Legal-AI\\Legal-AI.csproj",
         "packagesPath": "C:\\Users\\PROMACT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PROMACT\\source\\repos\\Legal-AI\\obj\\",
+        "outputPath": "C:\\Users\\PROMACT\\source\\repos\\priyanka01parmar\\legal\\Legal-AI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PROMACT\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

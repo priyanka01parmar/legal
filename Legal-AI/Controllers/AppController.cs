@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using Microsoft.Data.SqlClient;
+using Legal_AI.Models;
 
 namespace Legal_AI.Controllers
 {
@@ -10,7 +11,7 @@ namespace Legal_AI.Controllers
     {
         [HttpPost]
         [Route("api/account/login")]
-            public IActionResult Login(User user)
+        public IActionResult Login(User user)
 
         {
             // Perform login logic
@@ -35,15 +36,11 @@ namespace Legal_AI.Controllers
         {
             return user.Email == "admin" && user.Password == "password";
         }
-    }
-
-    public class ApiController
-    {
         [HttpPost]
         [Route("api/account/register")]
         public IActionResult Register(User user)
         {
-            
+
             using (SqlConnection connection = new SqlConnection("Data Source=DESKTOP-40JAMN6\\PROMACT;Initial Catalog=Legal_AI_DB;Integrated Security=True;TrustServerCertificate=True"))
             {
                 connection.Open();
@@ -64,11 +61,15 @@ namespace Legal_AI.Controllers
         }
     }
 
-    public class User
-    {
-        public object Email { get; internal set; }
-        public string Password { get; set; }
-        public object Desgination { get; internal set; }
-    }
-    }
+
+  
+}
+
+public class User
+{
+    public object Email { get; internal set; }
+    public string Password { get; set; }
+    public object Desgination { get; internal set; }
+}
+
 
