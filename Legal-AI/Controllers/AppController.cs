@@ -14,8 +14,7 @@ namespace Legal_AI.Controllers
         public IActionResult Login(User user)
 
         {
-            // Perform login logic
-            // Example code to validate the user credentials
+            
 
             if (IsValidUser(user))
             {
